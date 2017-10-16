@@ -1,0 +1,125 @@
+body {
+	font-weight: 300;
+	font-family: 'Quicksand', sans-serif;
+	margin:0;
+    padding:0;
+}
+
+h1 {
+	color:white;
+	font-size:62px;
+	text-align:center;
+	font-weight:700;
+	margin:0;
+}
+
+h1.myName {
+	background:#16a085;
+	padding-top:50px;
+}
+
+div {
+    color:black;
+	background-color: white;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 300;
+}
+
+h2 {
+	color:black;
+	background-color: white;
+	font-size: 62px;
+	text-align: center;
+	font-weight: 500;
+	padding-top: 50px;
+	margin:0;
+}
+
+h2.aboutMeTitle {
+	color:black;;
+	background-color:#EEEEEE;
+	font-size: 62px;
+	text-align: center;
+	font-weight: 500;
+	padding-top: 50px;
+}
+
+p {
+	color:white;
+	font-size: 36px;
+	line-height: 150%;
+	margin:0;
+	text-align: center;
+}
+
+p.topArea {
+	background:#16a085;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+p.aboutMe {
+	font-size: 28px; 
+	color:#333333; 
+	background-color:#EEEEEE;
+	text-align:left; 
+	padding-left: 100px; 
+	padding-right: 100px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+p.projectTitle {
+	font-size: 36px;
+	color:black; 
+	text-align:left; 
+	padding-left: 100px;
+}
+
+p.minorDetails {
+	font-size: 20px;
+	color:#16a085;
+	text-align:left; 
+	padding-left: 100px;
+}
+
+p.projectBody {
+	font-size: 24px; 
+	color:#888888; 
+	text-align:left; 
+	padding-left: 100px; 
+	padding-right: 100px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+a, a:link, a:visited {
+	color:white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+img.social {
+	height: 50px;
+	width : 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+img.screenshot {
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	margin: 10px 10px 10px 10px;
+	vertical-align: middle;
+	box-shadow: 0px 0px 15px #666666;
+}
+
+img.verticalScreenshot {
+	width: 15%;
+	height: 15%;
+	vertical-align: middle;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 15px #666666;
+}
