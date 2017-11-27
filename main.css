@@ -75,6 +75,7 @@ p.projectTitle {
 	color:black; 
 	text-align:left; 
 	padding-left: 100px;
+	padding-top: 25px;
 }
 
 p.minorDetails {
@@ -94,10 +95,22 @@ p.projectBody {
 	padding-bottom: 20px;
 }
 
-a, a:link, a:visited {
+a.social, a.social:link, a.social:visited {
 	color:white;
 	font-weight: 700;
 	text-decoration: none;
+}
+
+a.titleLink {
+	font-size: 36px;
+	color:black; 
+	text-align:left; 
+	padding-left: 0px;
+	text-decoration: none;
+}
+
+a.titleLink:hover {
+	text-decoration: underline;
 }
 
 img.social {
