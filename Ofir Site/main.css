@@ -47,6 +47,7 @@ div.servicesArea {
 
 div.currentPromotions {
 	background:#FAFAFA;
+	overflow: hidden;
 }
 
 div.testimonials {
@@ -166,9 +167,41 @@ td {
 }
 
 @media screen and (max-width: 1250px) {
-    .carousel {
-    	height: 400px;
-    }
+   
+    p.description {
+		font-size: 12px;
+	}
+
+	p.testimonialName {
+		font-size: 12px;
+		padding-right: 75px;
+		padding-top: 20px;
+		text-align: right;
+	}
+
+	li {
+  		font-size: 14px;
+	}
+
+	ul.servicesList {
+	  font-size: 14px;
+	}
+
+	table.storeInfo {
+		font-size: 14px;
+	}
+
+    div.inset {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;  /*72*/
+		padding-right: 50px;
+
+	}
+
+	h2 {
+		font-size: 22px;
+	}
 
 }
 
@@ -183,10 +216,11 @@ td {
 }
 
 .carousel {
-	height: 300px; 
+	/*height: 300px; */
 	padding-left: 36px; 
 	padding-right: 36px;
 }
+
 
 /* List */
 
@@ -251,8 +285,8 @@ img.textButton:hover {
 
 img.logo {
 	display: inline-block;
-	width: 30%;
-	height: 30%;
+	width: 35%;
+	height: 35%;
 	margin: 10px 10px 10px 10px;
 	vertical-align: middle;
 }
@@ -268,14 +302,18 @@ img.map {
 }
 
 img.advert {
-	display: inline-block;*/
+	display: inline-block;
 	width: 350px;
 	height: auto;
 	margin: 10px 10px 10px 10px;
 	vertical-align: middle;
-	max-width: 400px;
+	/*max-width: 400px;
     max-height: 600px;
+    min-width: 200px;*/
 
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 20px;
 
     padding: 10px;
     padding-top: 0px;
@@ -292,17 +330,6 @@ img.advert {
 }
 
 img.divider {
-	/*display: inline-block;
-	height: 100%;
-	width: 2%;
-	float: left;
- */
 	padding-top: 42px;
 	padding-bottom: 42px;
-	/*
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	vertical-align: middle;*/
 }
