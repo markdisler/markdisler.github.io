@@ -107,6 +107,14 @@ p.testimonialName {
 	text-align: right;
 }
 
+/* Separator */
+
+hr.separator {
+	width: 75%;
+	height: 1%;
+	border-top: 1px solid #ddd;
+	display: none;
+}
 
 /* Table */
 
@@ -153,56 +161,6 @@ td {
 .paddedCol {
 	padding-top: 42px;
 	padding-bottom: 42px;
-}
-
-@media screen and (max-width: 1250px) {
-    .column {
-        width: 100%;
-    }
-
-    .sepCol {
-    	display: none;
-    }
-
-}
-
-@media screen and (max-width: 1250px) {
-   
-    p.description {
-		font-size: 12px;
-	}
-
-	p.testimonialName {
-		font-size: 12px;
-		padding-right: 75px;
-		padding-top: 20px;
-		text-align: right;
-	}
-
-	li {
-  		font-size: 14px;
-	}
-
-	ul.servicesList {
-	  font-size: 14px;
-	}
-
-	table.storeInfo {
-		font-size: 14px;
-	}
-
-    div.inset {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		padding-left: 50px;  /*72*/
-		padding-right: 50px;
-
-	}
-
-	h2 {
-		font-size: 22px;
-	}
-
 }
 
 /* Carousel */
@@ -332,4 +290,69 @@ img.advert {
 img.divider {
 	padding-top: 42px;
 	padding-bottom: 42px;
+}
+
+@media screen and (max-width: 1250px) {
+    .column {
+        width: 100%;
+    }
+
+    .sepCol {
+    	display: none;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+   
+    p.description {
+		font-size: 14px;
+	}
+
+	p.testimonialName {
+		font-size: 14px;
+		padding-right: 75px;
+		padding-top: 20px;
+		text-align: right;
+	}
+
+	li {
+  		font-size: 14px;
+	}
+
+	ul.servicesList {
+	  font-size: 14px;
+	  list-style-image: url('images/Bullet-Small.png');
+	}
+
+	table.storeInfo {
+		font-size: 14px;
+	}
+
+    div.inset {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;  /*72*/
+		padding-right: 50px;
+
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	img.logo {
+		display: inline-block;
+		width: 70%;
+		height: 70%;
+	}
+
+	img.textButton {
+		width: 220px;
+	}
+
+	hr.separator {
+		display: block;
+	}
+
 }
