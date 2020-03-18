@@ -36,14 +36,24 @@
       request.then(function(response) {
         // TODO: Change code below to process the `response` object:
         console.log(response.result);
-        populateSheet(response.result);
+        var p = assigneeForLocker(response.result, "115-3-B");
+        console.log(p);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
       });
     }
 
-    function populateSheet(result) {
-        console.log(result.values.length);
+    function assigneeForLocker(result, lockerNum) {
+        var numRows = result.values.length;
+        var numCols = result.values[0].length;
+
+        for (var i = 1; i < numRows; i++) {
+            var locker = result.values[i][0];
+            if (lockerNum == locker) {
+                return result.values[i][1]
+            }
+        }
+        return "No one";
     }
 
     function initClient() {
