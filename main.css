@@ -2,7 +2,7 @@ body {
 	font-weight: 300;
 	font-family: 'Quicksand', sans-serif;
 	margin:0;
-    padding:0;
+	padding:0;
 }
 
 h1 {
@@ -31,11 +31,26 @@ h3 {
 }
 
 div {
-  color:black;
+	color:black;
 	background-color: white;
 	font-size: 32px;
 	text-align: center;
 	font-weight: 300;
+}
+
+div.sectionContainer {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+div.grayContainer {
+	background-color:#EEEEEE;
+}
+
+div.compactLayout {
+	display; flex;
+	overflow: hidden;
+	margin-top: 8px
 }
 
 h2 {
@@ -82,10 +97,7 @@ p.topArea {
 p.aboutMe {
 	font-size: 28px;
 	color:#333333;
-	background-color:#EEEEEE;
 	text-align:left;
-	padding-left: 100px;
-	padding-right: 100px;
 	padding-top: 25px;
 	padding-bottom: 50px;
 }
@@ -94,7 +106,6 @@ p.projectTitle {
 	font-size: 36px;
 	color:black;
 	text-align:left;
-	padding-left: 100px;
 	padding-top: 35px;
 }
 
@@ -102,17 +113,24 @@ p.minorDetails {
 	font-size: 20px;
 	color:#16a085;
 	text-align:left;
-	padding-left: 100px;
 }
 
 p.projectBody {
 	font-size: 24px;
 	color:#888888;
 	text-align:left;
-	padding-left: 100px;
-	padding-right: 100px;
 	padding-top: 15px;
 	padding-bottom: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color:#16a085;
+}
+
+a:visited {
+	text-decoration: none;
+	color:#32a595;
 }
 
 a.social, a.social:link, a.social:visited {

@@ -21,22 +21,33 @@
 		</p>
 	</div>
 
-	<div>
+	<div class="sectionContainer grayContainer">
 		<h2 class="aboutMeTitle"> About Me </h2>
 		<p class="aboutMe">
 			I'm Mark! <br>
 			I recently graduated from the University of Massachusetts Amherst with a degree in Computer Science.<br><br>
 
 			I currently work at Liberty Mutual doing web development with React.<br>
-			On my own time, I do a lot of iOS work with Objective-C and Swift.<br>
-		    Most of my UI work is done with Sketch. <br><br>
+			On my own time, I work on various iOS side projects with Objective-C and Swift.  <br>
+			Most of my design work is done with Sketch. <br><br>
+
+			Currently working on an unannounced iPad app.<br><br>
 
 			You can check out the projects that I've worked on down below.
 		</p>
 	</div>
 
-	<div>
+	<div class="sectionContainer">
+
 		<h2> My Projects </h2>
+
+		<p class="projectTitle"> CurveCode <br></p>
+		<p class="minorDetails"> Nov - Dec 2019 <br></p>
+		<p class="projectBody">
+			A quick visual tool to generate UIBezierPaths.  The tool allows you to place control points and adjust the handles.  Supports straight, mirrored, disconnected, and assymetric handle positioning.  Code export is in Objective-C right now, but could easily add Swift support. <br>
+		</p>
+		<img class="screenshot" src="images/CurveCode1.png">
+		<img class="screenshot" src="images/CurveCode2.png">
 
 		<p class="projectTitle">
 			<a class="titleLink"
@@ -44,7 +55,8 @@
 		</p>
 		<p class="minorDetails"> Feb 2015 - Oct 2020 <br></p>
 		<p class="projectBody">
-			A calculator app with a twist that gives the user the opportunity to design their own calculator interface. The user can assign specific functions and colors to buttons as well as resize and reposition them. The app has support for multiple layouts, a light and dark theme, user-defined constants, an in-depth math parser, and much more.  <br>
+			A calculator app with a twist that gives the user the opportunity to design their own calculator interface. The user can assign specific functions and colors to buttons as well as resize and reposition them. The app has support for multiple layouts, color palettes, user-defined constants, an in-depth math parser, a math renderer, a light and dark theme, and much more. <br>
+			You can check out CapCalc on the App Store <a href="https://apps.apple.com/us/app/capcalc-2/id1534628235">here</a>.
 		</p>
 		<img class="verticalScreenshot" src="images/CC1.png">
 		<img class="verticalScreenshot" src="images/CC2.png">
@@ -64,14 +76,6 @@
 		<img class="screenshot" src="images/BRAIN2.png">
 		<img class="screenshot" src="images/BRAIN3.png">
 
-		<p class="projectTitle"> School Run <br></p>
-		<p class="minorDetails"> Feb 2016 - May 2016 <br></p>
-		<p class="projectBody">
-			School Run is a 3D game made in the Unity3D game engine. This project served as my high school Senior Year Project. I self-taught some 3D game design concepts and learned a bit of C# to program the game. School Run is an endless running game, but the catch is that it takes place inside my high school. Using reference pictures, I modeled the interior halls of most of the school with real textures, as well as obstacles that could occasionally be found in the hallways. I was asked to demo the final project at the senior project fair in May of 2016.  <br>
-		</p>
-		<img class="verticalScreenshot" src="images/SchoolRun1.png">
-		<img class="screenshot" src="images/SchoolRun2.png">
-
 
 		<p class="projectTitle"> Scouting <br></p>
 		<p class="minorDetails"> July 2015 - Present <br></p>
@@ -83,7 +87,6 @@
 		<img class="verticalScreenshot" src="images/S3.png">
 		<img class="verticalScreenshot" src="images/S4.png">
 		<img class="verticalScreenshot" src="images/S5.png">
-		<img class="verticalScreenshot" src="images/S6.png">
 
 		<p class="projectTitle">
 			<a class="titleLink" href="https://itunes.apple.com/us/app/mathcruncher/id954637577?mt=8">MathCruncher</a>
@@ -97,10 +100,41 @@
 		<img class="verticalScreenshot" src="images/MC3.png">
 		<img class="verticalScreenshot" src="images/MC4.png">
 		<img class="verticalScreenshot" src="images/MC5.png">
-
 		<p class="projectBody"> <br></p>
 
+		<hr>
+		<br>
+
+		<h2> Custom UIViews </h2>
+
+		<p class="projectTitle"> MatrixView <br></p>
+		<p class="projectBody">
+			Built a matrix UI component for iOS in Objective-C.  Takes a set of dimensions (number of rows and columns) and generates a matrix view.  The base matrix is populated with blank highlighted textfields.  As the user enters values, the background color is hidden.  Fully supports autolayout. <br>
+		</p>
+		<img class="verticalScreenshot" src="images/Matrix1.png">
+		<img class="verticalScreenshot" src="images/Matrix2.png">
+		<br>
+
+		<p class="projectTitle"> GraphView <br></p>
+		<p class="projectBody">
+			Built a graphing component for iOS in Objective-C.  Takes an NSArray of math functions (x^2, 2x, x^3, etc) and genarates a graph visualization.  The graph view supports both panning and zooming via gesture recognizers. As the user moves the graph around and adjusts the zoom factor, the view will recalculate the graph to maintain a smooth bezier curve.  It relies on a comprehensive math parser I wrote years ago. <br>
+		</p>
+		<img class="verticalScreenshot" src="images/Grapher1.png">
+		<img class="verticalScreenshot" src="images/Grapher2.png">
+		<p class="projectBody"> <br></p>
+
+		<hr>
+
+		<h2> Learning SceneKit </h2>
+
+		<p class="projectTitle"> Towers of Hanoi <br></p>
+		<p class="projectBody">
+			Built a Towers of Hanoi simulation using the SceneKit framework.  Written in Swift. Runs on Mac and iOS.<br>
+		</p>
+		<img class="screenshot" src="images/Hanoi1.png">
+		<img class="screenshot" src="images/Hanoi2.png">
 	</div>
+
 
 
 </body>
