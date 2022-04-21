@@ -53,6 +53,10 @@ div.compactLayout {
 	margin-top: 8px
 }
 
+div.keywordTagContainer {
+	display: inline-block;
+}
+
 h2 {
 	color:black;
 	background-color: white;
@@ -100,6 +104,19 @@ p.aboutMe {
 	text-align:left;
 	padding-top: 25px;
 	padding-bottom: 50px;
+}
+
+p.keywordTag {
+	background-color: #F5F5F5;
+	font-size: 16px;
+	color:#333333;
+	text-align:left;
+	padding: 6px 16px 6px 16px;
+	border-radius: 21px;
+	width: fit-content;
+	block-size: fit-content;
+	float: left;
+	margin-left: 16;
 }
 
 p.projectTitle {

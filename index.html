@@ -41,13 +41,41 @@
 
 		<h2> My Projects </h2>
 
-		<p class="projectTitle"> CurveCode <br></p>
+		<!-- Field Canvas View -->
+
+		<p class="projectTitle"> FieldCanvasView <br></p>
+		<p class="minorDetails"> Jul 2021 <br></p>
+		<p class="projectBody">
+			FieldCanvasView is a custom component I built for one of my unannounced projects which uses CALayer and CAShapeLayer to render the field graphics.  The canvas view also handles gestures for zooming and panning. Additionally, it allows you to add subviews which conform to a special protocol.  Those subviews are then tracked to the grid of the field, so as you zoom and pan, the subviews will move and scale accordingly.<br>
+		</p>
+		<img class="screenshot" src="images/FieldCanvas1.png">
+		<img class="screenshot" src="images/FieldCanvas2.png">
+		<img class="screenshot" src="images/FieldCanvasGIF.gif">
+		<p class="projectBody"> <br></p>
+
+		<!-- CurveCode -->
+
+		<p class="projectTitle">CurveCode</p>
 		<p class="minorDetails"> Nov - Dec 2019 <br></p>
 		<p class="projectBody">
 			A quick visual tool to generate UIBezierPaths.  The tool allows you to place control points and adjust the handles to create custom shapes and views for iOS apps.  Supports straight, mirrored, disconnected, and asymetric handle positioning.  Code export is in Objective-C right now, but could easily support Swift. <br>
 		</p>
 		<img class="screenshot" src="images/CurveCode1.PNG">
 		<img class="screenshot" src="images/CurveCode2.PNG">
+
+		<!-- Music Snippets -->
+
+		<p class="projectTitle"> Music Snippets <br></p>
+		<p class="minorDetails"> Oct 2019, Jan 2020<br></p>
+		<p class="projectBody">
+			A very basic music renderer that draws most of its graphics using UIBezierPaths. The POC supports viewing and creating new snippets that are backed by Core Data.  The renderer view is able to draw all basic note types and rests, as well as accidentals (sharps, flats). Lastly, it has a stepper for transposing the snippet up or down in half steps. At some point in the future, I'd like to build something more robust that can handle more complicated rendering like beaming notes together, zooming, and articulation markings.<br>
+		</p>
+		<img class="verticalScreenshot" src="images/NoteSnippets1.png">
+		<img class="verticalScreenshot" src="images/NoteSnippets2.png">
+		<img class="verticalScreenshot" src="images/NoteSnippets3.png">
+		<img class="verticalScreenshot" src="images/NoteSnippets4.png">
+
+		<!-- CapCalc -->
 
 		<p class="projectTitle">
 			<a class="titleLink"
@@ -64,6 +92,30 @@
 		<img class="verticalScreenshot" src="images/CC4.png">
 		<img class="verticalScreenshot" src="images/CC5.png">
 
+		<!-- MatrixView -->
+
+		<p class="projectTitle"> MatrixView <br></p>
+		<p class="minorDetails"> Mar 2017 <br></p>
+		<p class="projectBody">
+			Built a matrix UI component for iOS in Objective-C.  Takes a set of dimensions (number of rows and columns) and generates a matrix view.  The base matrix is populated with blank highlighted textfields.  As the user enters values, the background color is hidden.  Fully supports autolayout. <br>
+		</p>
+		<img class="verticalScreenshot" src="images/Matrix1.png">
+		<img class="verticalScreenshot" src="images/Matrix2.png">
+		<br>
+
+		<!-- GraphView -->
+
+		<p class="projectTitle"> GraphView <br></p>
+		<p class="minorDetails"> Aug 2016 <br></p>
+		<p class="projectBody">
+			Built a graphing component for iOS in Objective-C.  Takes an NSArray of math functions (x^2, 2x, x^3, etc) and genarates a graph visualization.  The graph view supports both panning and zooming via gesture recognizers. As the user moves the graph around and adjusts the zoom factor, the view will recalculate the graph to maintain a smooth bezier curve.  It relies on a comprehensive math parser I wrote years ago. <br>
+		</p>
+		<img class="verticalScreenshot" src="images/Grapher1.png">
+		<img class="verticalScreenshot" src="images/Grapher2.png">
+		<p class="projectBody"> <br></p>
+
+		<!-- BRAIN Display -->
+
 		<p class="projectTitle">
 			<a class="titleLink"
 			href="https://github.com/markdisler/BRAIN-Display">BRAIN Display</a>
@@ -76,18 +128,22 @@
 		<img class="screenshot" src="images/BRAIN2.png">
 		<img class="screenshot" src="images/BRAIN3.png">
 
+		<!-- Scouting -->
+
 		<p class="projectTitle">
 			<a class="titleLink" href="https://github.com/markdisler/Scouting-App">Scouting</a>
 		</p>
 		<p class="minorDetails"> Jul 2015 - Jul 2017 <br></p>
 		<p class="projectBody">
-			A scouting tool that can be used for FIRST robotics competitions. The app allows the user to create a scouting sheet with fields/entries that a team may find useful when trying to build an alliance.  The scouting sheet can be updated with new fields/entries if necessary.  The data that is collected during a competition can be searched to narrow down a list of teams to teams that match certain qualifications.  You can even customize the accent color of the app to match your team color.  This project is incomplete at the moment. <br>
+			A scouting tool that can be used for robotics competitions. The app allows the user to create a scouting sheet with fields/entries that a team may find useful when trying to build an alliance.  The scouting sheet can be updated with new fields/entries if necessary.  The data that is collected during a competition can be searched to narrow down a list of teams to teams that match certain qualifications.  You can even customize the accent color of the app to match your team color.  This project is incomplete at the moment. <br>
 		</p>
 		<img class="verticalScreenshot" src="images/S1.png">
 		<img class="verticalScreenshot" src="images/S2.png">
 		<img class="verticalScreenshot" src="images/S3.png">
 		<img class="verticalScreenshot" src="images/S4.png">
 		<img class="verticalScreenshot" src="images/S5.png">
+
+		<!-- MathCruncher  -->
 
 		<p class="projectTitle">
 			<a class="titleLink" href="https://itunes.apple.com/us/app/mathcruncher/id954637577?mt=8">MathCruncher</a>
@@ -105,26 +161,6 @@
 
 		<hr>
 		<br>
-
-		<h2> Custom UIViews </h2>
-
-		<p class="projectTitle"> MatrixView <br></p>
-		<p class="projectBody">
-			Built a matrix UI component for iOS in Objective-C.  Takes a set of dimensions (number of rows and columns) and generates a matrix view.  The base matrix is populated with blank highlighted textfields.  As the user enters values, the background color is hidden.  Fully supports autolayout. <br>
-		</p>
-		<img class="verticalScreenshot" src="images/Matrix1.png">
-		<img class="verticalScreenshot" src="images/Matrix2.png">
-		<br>
-
-		<p class="projectTitle"> GraphView <br></p>
-		<p class="projectBody">
-			Built a graphing component for iOS in Objective-C.  Takes an NSArray of math functions (x^2, 2x, x^3, etc) and genarates a graph visualization.  The graph view supports both panning and zooming via gesture recognizers. As the user moves the graph around and adjusts the zoom factor, the view will recalculate the graph to maintain a smooth bezier curve.  It relies on a comprehensive math parser I wrote years ago. <br>
-		</p>
-		<img class="verticalScreenshot" src="images/Grapher1.png">
-		<img class="verticalScreenshot" src="images/Grapher2.png">
-		<p class="projectBody"> <br></p>
-
-		<hr>
 
 		<h2> Learning SceneKit </h2>
 
