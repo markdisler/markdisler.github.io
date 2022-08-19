@@ -1,0 +1,61 @@
+body {
+	font-weight: 300;
+	font-family: 'Quicksand', sans-serif;
+	margin:0;
+    padding:0;
+}
+
+h1 {
+    color:white;
+	font-size:3rem;
+	text-align:left;
+	font-weight: 500;
+}
+
+h3 {
+	color:black;
+	font-size:1.5rem;
+	text-align:left;
+	font-weight:500;
+	margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.topBar {
+	background: #16a085;
+    display: flex;
+    align-items: center;
+}
+
+div {
+  color:black;
+	background-color: white;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 300;
+}
+
+h2 {
+	color:black;
+	background-color: white;
+	font-size: 62px;
+	text-align: center;
+	font-weight: 500;
+	margin:0;
+}
+
+p {
+	color:#666666;
+	font-size: 1.25rem;
+	line-height: 125%;
+	padding-bottom: 4px;
+	margin:0;
+	text-align: left;
+}
+
+img.appIcon {
+	height: 4.5rem;
+	width : 4.5rem;
+	margin-left: 10px;
+	margin-right: 10px;
+}
